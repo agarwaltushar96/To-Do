@@ -1,0 +1,40 @@
+.container_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.container_Title {
+    position: relative;
+    font-size: 20px;
+    left: 20px;
+}
+
+.container_sort {
+    position: relative;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 2px 5px 5px;
+    border-radius: 5px;
+}
+
+.container_sort:hover {
+    background-color: white;
+}
+
+.sorting_Ways {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 15%;
+}
+
+.sorting_Indicator {
+    display: flex;
+    float: right;
+    padding: 5px;
+    justify-content: flex-end;
+    width: 96%;
+    float: left;
+}

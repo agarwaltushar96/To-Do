@@ -1,0 +1,17 @@
+.menu_Container {
+    width: 20%;
+    float: left;
+    background-color: white;
+    padding-top: 57.5px;
+    transition: width 0.3s ease-in-out;
+    min-height: 609px;
+}
+
+.menu_Container_collapsed {
+    transition: width 0.3s ease-in-out;
+    width: 4%;
+    float: left;
+    background-color: white;
+    padding-top: 57.5px;
+    min-height: 609px;
+}
